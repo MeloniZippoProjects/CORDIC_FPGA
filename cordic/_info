@@ -8,3 +8,120 @@ z2
 !i10f 100
 cModel Technology
 dc:/program files (x86)/ModelSim/examples
+Efa
+Z0 w1476785200
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/enric/Documents/Progetti/CORDIC_FPGA
+Z4 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/fa.vhd
+Z5 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/fa.vhd
+l0
+L4
+VK2EO5XmoZ6h<Bmb8]18TE1
+!s100 ZmS:kNEEC]DoN`bzlHBC?3
+Z6 OP;C;10.4a;61
+32
+Z7 !s110 1481385198
+!i10b 1
+Z8 !s108 1481385198.000000
+Z9 !s90 -reportprogress|300|-work|cordic|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/fa.vhd|
+Z10 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/fa.vhd|
+!i113 1
+Z11 o-work cordic -2002 -explicit -O0
+Z12 tExplicit 1
+Afa_architecture
+R1
+R2
+DEx4 work 2 fa 0 22 K2EO5XmoZ6h<Bmb8]18TE1
+l15
+L14
+VXG^h;a^L0BWNF56k^YkiX3
+!s100 E2^h]54UPL90;Azb[31;43
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Erca_p
+Z13 w1477383721
+R1
+R2
+R3
+Z14 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/rca_parametric.vhd
+Z15 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/rca_parametric.vhd
+l0
+L4
+VHCl6DXOQ1;EgI_4:=d4ZH2
+!s100 <mT^ffZ<RRXf]MfK;iS@E1
+R6
+32
+Z16 !s110 1481385199
+!i10b 1
+R8
+Z17 !s90 -reportprogress|300|-work|cordic|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/rca_parametric.vhd|
+Z18 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/rca_parametric.vhd|
+!i113 1
+R11
+R12
+Astruct
+R1
+R2
+DEx4 work 5 rca_p 0 22 HCl6DXOQ1;EgI_4:=d4ZH2
+l33
+L15
+V>`eEL80l6H6_4LTCXo>RW2
+!s100 1Yj_FeV]7X4Q2RjSag@Uf3
+R6
+32
+R16
+!i10b 1
+R8
+R17
+R18
+!i113 1
+R11
+R12
+Ereg
+Z19 w1477389269
+R1
+R2
+R3
+Z20 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/register.vhd
+Z21 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/register.vhd
+l0
+L4
+VLAz@EH93Mh80QOncIhSD61
+!s100 f`=7aRS1_nR`lGEDQY28?2
+R6
+32
+R16
+!i10b 1
+Z22 !s108 1481385199.000000
+Z23 !s90 -reportprogress|300|-work|cordic|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/register.vhd|
+Z24 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/register.vhd|
+!i113 1
+R11
+R12
+Adataflow_reg
+R1
+R2
+DEx4 work 3 reg 0 22 LAz@EH93Mh80QOncIhSD61
+l16
+L15
+VHElTR@7<9U>AzDFJPAgUH0
+!s100 VzddgA3DDGli4IbmLkf900
+R6
+32
+R16
+!i10b 1
+R22
+R23
+R24
+!i113 1
+R11
+R12
