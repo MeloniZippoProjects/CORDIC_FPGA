@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity FA is
+entity FullAdder is
 	port(
 		a 		: in std_ulogic;
 		b 		: in std_ulogic;
@@ -9,10 +9,10 @@ entity FA is
 		s 		: out std_ulogic;
 		cout 	: out std_ulogic 
 	);
-end FA;
+end FullAdder;
 
-architecture FA_architecture of FA is
+architecture FullAdder_arch of FullAdder is
 begin 
 	s <= a xor b xor cin;
 	cout <= (a and b) or (a and cin) or (b and cin);
-end FA_architecture;
+end FullAdder_arch;

@@ -2,7 +2,7 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 
 
-entity shifter_generic is
+entity RighShifter_generic is
 	-- Nbit -> number of bits to represent x_in and x_out
 	-- Nshift -> max number of shifts necessary
 	generic(Nbit : positive := 12; Nshift : positive := 8);
@@ -11,10 +11,10 @@ entity shifter_generic is
 		pilot : in std_ulogic_vector(Nshift-1 downto 0);
 		x_out : out std_ulogic_vector(Nbit-1 downto 0)
 	);
-end shifter_generic;
+end RighShifter_generic;
 
 
-architecture shifter_generic_struct of shifter_generic is
+architecture RighShifter_generic_struct of RighShifter_generic is
 	
 	component shifter_base 
 		port(
@@ -42,4 +42,4 @@ architecture shifter_generic_struct of shifter_generic is
 		
 		x_out <= my_signal_array(Nshift);
 		
-	end shifter_generic_struct;
+	end RighShifter_generic_struct;

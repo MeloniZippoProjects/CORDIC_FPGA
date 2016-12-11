@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
 
-entity RCA_p is
+entity RippleCarryAdder_generic is
 	generic (Nbit : positive := 8);
 	port(
 		a		: in std_ulogic_vector(Nbit-1 downto 0);
@@ -10,9 +10,9 @@ entity RCA_p is
 		s		: out std_ulogic_vector(Nbit-1 downto 0);
 		cout	: out std_ulogic
 	);
-end RCA_p;
+end RippleCarryAdder_generic;
 
-architecture struct of RCA_p is
+architecture RippleCarryAdder_generic_arch of RippleCarryAdder_generic is
 	--component declaration
 	
 	component FA
@@ -29,10 +29,10 @@ architecture struct of RCA_p is
 	--signal declaration
 	signal c : std_ulogic_vector (Nbit downto 0);
 	
-	--arch description
+--arch description
 	begin
 		c(0) <= cin;
-		
+			
 		rca_gen: for i in 0 to Nbit-1 generate 
 			x_FA : FA 
 				port map (
@@ -43,10 +43,7 @@ architecture struct of RCA_p is
 					cout => c(i+1)
 				);
 		end generate;
-		
+			
 		cout <= c(Nbit);
-			
-	
-			
-			
-	end struct;
+							
+	end RippleCarryAdder_generic_arch;
