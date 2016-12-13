@@ -1,16 +1,9 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
-use IEE.numeric_std.all;
+use IEEE.numeric_std.all;
 
-function f_log2 (x : positive) return natural is
-  variable i : natural;
-begin
-  i := 0;  
-  while (2**i < x) and i < 31 loop
-     i := i + 1;
-  end loop;
-  return i;
-end function;
+library cordic;
+use cordic.util.all;
 
 entity yn_combinatorics is
 	-- Hbits -> number of bits to represent x_in and x_out
@@ -31,15 +24,10 @@ architecture yn_combinatorics_struct of yn_combinatorics is
 	signal x_postshift : signed(Hbits-1 downto 0);
 
 begin
-	case( y_p(Hbits-1) ) is
-		when '1' =>
-			x_preshift <= to_signed(x_p);
-		
-		when '0' =>
-			x_preshift <= 0 - to_signed(x_p);
-	end case ;
+	x_preshift <= signed(x_p) when y_p(Hbits-1) = '1'
+		else (0 - signed(x_p));
 
-	x_postshift <= shift_right(x_preshift, to_unsigned(iteration));
-	y_n <= to_stdlogicvector(to_signed(y_p) + x_postshift);
+	x_postshift <= shift_right(x_preshift, to_integer(unsigned(iteration)));
+	y_n <= std_ulogic_vector(signed(y_p) + x_postshift);
 
-end xn_combinatorics_struct;
+end yn_combinatorics_struct;
