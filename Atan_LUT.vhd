@@ -6,9 +6,9 @@ use IEEE.math_real.all;
 library cordic;
 use cordic.util.all;
 
+-- LUT which stores the value of atan(2^(-i)) at address i for i = 0 ... N_iterations
+
 entity Atan_LUT is
-	-- Hbits -> number of bits to represent x_in and x_out
-	-- N_iterations -> max number of shifts necessary
 	generic(Kbits : positive := 12; N_iterations : positive := 8);
 	port(
 		iteration : in std_ulogic_vector(f_log2(N_iterations)-1 downto 0);

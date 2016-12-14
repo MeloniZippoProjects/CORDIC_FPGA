@@ -1,3 +1,6 @@
+-- Defines the function f_log2 which is used to compute at compile time
+-- the number of bits to store a natural number of max value x
+
 package util is
 	function f_log2 (x : in positive) return natural;
 end package;

@@ -6,9 +6,14 @@ use IEEE.math_real.all;
 library cordic;
 use cordic.util.all;
 
+-- Applies the iterative formula
+-- z(i+1) = z(i) - d(i)*atan(2^(-i))
+-- Where d(i) = 1 if y(i) < 0, -1 otherwise
+
+-- atan(2^(-i)) is computed via a LUT which is supposed to store the value at address i
+-- z(0) is supposed to be set to 0
+
 entity zn_combinatorics is
-	-- Kbits -> number of bits to represent z_in and z_out
-	-- N_iterations -> max number of shifts necessary
 	generic(Kbits : positive := 12; N_iterations : positive := 8);
 	port(
 		z_p : in std_ulogic_vector(Kbits-1 downto 0);

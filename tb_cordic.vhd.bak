@@ -57,14 +57,14 @@ begin
 	drive_p : process
 	begin
 			reset <= '1';
-			num <= x"0000_0001";
-			den <= x"0000_0001";
+			num <= x"2000_0000";
+			den <= x"4000_0000";
 			wait until rising_edge(clk);
 			reset <= '0';
-		wait on ris;
-			num <= x"2000_0000";
-			den <= x"4000_0000";	
-		wait on ris;
+		wait for 1.6 us;
+			num <= x"7FFF_FFFF";
+			den <= x"7FFF_FFFF";
+		wait for 1.6 us;
 			num <= x"6000_0000";
 			den <= x"2000_0000";
 		wait;

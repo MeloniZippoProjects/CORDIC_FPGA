@@ -5,9 +5,11 @@ use IEEE.numeric_std.all;
 library cordic;
 use cordic.util.all;
 
+-- Applies the iterative formula
+-- y(i+1) = y(i) + d(i)*x(i)*2^(-i)
+-- Where d(i) = 1 if y(i) < 0, -1 otherwise
+
 entity yn_combinatorics is
-	-- Hbits -> number of bits to represent x_in and x_out
-	-- N_iterations -> max number of shifts necessary
 	generic(Hbits : positive := 12; N_iterations : positive := 8);
 	port(
 		x_p 		: in std_ulogic_vector(Hbits-1 downto 0);

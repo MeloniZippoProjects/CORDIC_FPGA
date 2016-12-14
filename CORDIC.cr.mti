@@ -1,29 +1,4 @@
-C:/Users/enric/Documents/Progetti/CORDIC_FPGA/tb_cordic.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/tb_cordic.vhd
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Compiling entity tb_cordic
--- Compiling architecture beh_tb_cordic of tb_cordic
-
-} {} {}} C:/Users/enric/Documents/Progetti/CORDIC_FPGA/register.vhd {1 {vcom -work cordic -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/register.vhd
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity reg
--- Compiling architecture DataFlow_reg of reg
-
-} {} {}} C:/Users/enric/Documents/Progetti/CORDIC_FPGA/rca_parametric.vhd {1 {vcom -work cordic -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/rca_parametric.vhd
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity RCA_p
--- Compiling architecture struct of RCA_p
-
-} {} {}} C:/Users/enric/Documents/Progetti/CORDIC_FPGA/xn_combinatorics.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/xn_combinatorics.vhd
+C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/xn_combinatorics.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/xn_combinatorics.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -33,14 +8,30 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity xn_combinatorics
 -- Compiling architecture xn_combinatorics_struct of xn_combinatorics
 
-} {} {}} C:/Users/enric/Documents/Progetti/CORDIC_FPGA/util.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/util.vhd
+} {} {}} C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/util.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/util.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Compiling package util
 -- Compiling package body util
 -- Loading package util
 
-} {} {}} C:/Users/enric/Documents/Progetti/CORDIC_FPGA/yn_combinatorics.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/yn_combinatorics.vhd
+} {} {}} C:/Users/enric/Documents/Progetti/CORDIC_FPGA/rca_parametric.vhd {1 {vcom -work cordic -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/rca_parametric.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity RCA_p
+-- Compiling architecture struct of RCA_p
+
+} {} {}} C:/Users/enric/Documents/Progetti/CORDIC_FPGA/register.vhd {1 {vcom -work cordic -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/register.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity reg
+-- Compiling architecture DataFlow_reg of reg
+
+} {} {}} C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/yn_combinatorics.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/yn_combinatorics.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -50,7 +41,7 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity yn_combinatorics
 -- Compiling architecture yn_combinatorics_struct of yn_combinatorics
 
-} {} {}} C:/Users/enric/Documents/Progetti/CORDIC_FPGA/Atan_LUT.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/Atan_LUT.vhd
+} {} {}} C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/Atan_LUT.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/Atan_LUT.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -61,17 +52,7 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity Atan_LUT
 -- Compiling architecture Atan_LUT_struct of Atan_LUT
 
-} {} {}} C:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic.vhd
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package util
--- Compiling entity cordic
--- Compiling architecture cordic_beh of cordic
-
-} {} {}} C:/Users/enric/Documents/Progetti/CORDIC_FPGA/zn_combinatorics.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/zn_combinatorics.vhd
+} {} {}} C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/zn_combinatorics.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/zn_combinatorics.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -81,5 +62,14 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package util
 -- Compiling entity zn_combinatorics
 -- Compiling architecture zn_combinatorics_struct of zn_combinatorics
+
+} {} {}} C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/tb_cordic.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/tb_cordic.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity tb_cordic
+-- Compiling architecture beh_tb_cordic of tb_cordic
 
 } {} {}}
