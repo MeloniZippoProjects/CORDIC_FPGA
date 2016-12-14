@@ -13,7 +13,7 @@ use cordic.util.all;
 -- atan(2^(-i)) is computed via a LUT which is supposed to store the value at address i
 -- z(0) is supposed to be set to 0
 
-entity zn_combinatorics is
+entity zn_combinatorial is
 	generic(Kbits : positive := 12; N_iterations : positive := 8);
 	port(
 		z_p : in std_ulogic_vector(Kbits-1 downto 0);
@@ -22,9 +22,9 @@ entity zn_combinatorics is
 
 		z_n : out std_ulogic_vector(Kbits-1 downto 0)
 	);
-end zn_combinatorics;
+end zn_combinatorial;
 
-architecture zn_combinatorics_struct of zn_combinatorics is
+architecture zn_combinatorial_struct of zn_combinatorial is
 
 	component Atan_LUT is
 		generic(Kbits : positive := 12; N_iterations : positive := 8);
@@ -46,4 +46,4 @@ begin
 		else atan;
 
 	z_n <= std_ulogic_vector(signed(z_p) + signed(atan_to_add));
-end zn_combinatorics_struct;
+end zn_combinatorial_struct;

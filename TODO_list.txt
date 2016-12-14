@@ -1,8 +1,8 @@
 Shifter_base : DONE
 shifter_generic : DONE
-xn e yn combinatorics : DONE
+xn e yn combinatorial : DONE
 lut_atan : TO DO AS GENERICS
-zn combinatorics : first do lut_atan
+zn combinatorial : first do lut_atan
 lut_iteration : not needed
 
 Osservazioni raff:

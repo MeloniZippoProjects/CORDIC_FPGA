@@ -11,7 +11,7 @@ use cordic.util.all;
 
 -- x(0) is supposed to be positive
 
-entity xn_combinatorics is
+entity xn_combinatorial is
 	generic(Hbits : positive := 12; N_iterations : positive := 8);
 	port(
 		x_p 		: in std_ulogic_vector(Hbits-1 downto 0);
@@ -20,9 +20,9 @@ entity xn_combinatorics is
 
 		x_n		: out std_ulogic_vector(Hbits-1 downto 0)
 	);
-end xn_combinatorics;
+end xn_combinatorial;
 
-architecture xn_combinatorics_struct of xn_combinatorics is
+architecture xn_combinatorial_struct of xn_combinatorial is
 
 	signal y_preshift : signed(Hbits-1 downto 0);
 	signal y_postshift : signed(Hbits-1 downto 0);
@@ -34,4 +34,4 @@ begin
 	y_postshift <= shift_right(signed(y_preshift), to_integer(unsigned(iteration)));
 	x_n <= std_ulogic_vector(signed(x_p) + y_postshift);
 
-end xn_combinatorics_struct;
+end xn_combinatorial_struct;

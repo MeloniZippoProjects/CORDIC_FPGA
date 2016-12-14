@@ -30,8 +30,8 @@ entity cordic_atan is
 end cordic_atan;
 
 architecture cordic_beh of cordic_atan is 
-	-- Combinatorics components
-		component xn_combinatorics is
+	-- combinatorial components
+		component xn_combinatorial is
 			generic(Hbits : positive := 12; N_iterations : positive := 8);
 			port(
 				x_p 		: in std_ulogic_vector(Hbits-1 downto 0);
@@ -42,7 +42,7 @@ architecture cordic_beh of cordic_atan is
 			);
 		end component;
 
-		component yn_combinatorics is
+		component yn_combinatorial is
 			generic(Hbits : positive := 12; N_iterations : positive := 8);
 			port(
 				x_p 		: in std_ulogic_vector(Hbits-1 downto 0);
@@ -53,7 +53,7 @@ architecture cordic_beh of cordic_atan is
 			);
 		end component;
 
-		component zn_combinatorics
+		component zn_combinatorial
 			generic(Kbits : positive := 12; N_iterations : positive := 8);
 			port(
 				z_p : in std_ulogic_vector(Kbits-1 downto 0);
@@ -71,7 +71,7 @@ architecture cordic_beh of cordic_atan is
 		signal state : state_type;
 	
 	-- signals to store values for computations
-	-- p ones are registries, while n ones are the next values computed by combinatorics networks
+	-- p ones are registries, while n ones are the next values computed by combinatorial networks
 		signal x_p, x_n : std_ulogic_vector(Hbits+1 downto 0);
 		signal y_p, y_n : std_ulogic_vector(Hbits+1 downto 0);
 		signal z_p, z_n : std_ulogic_vector(Kbits-1 downto 0);
@@ -87,7 +87,7 @@ begin
 	-- Mappings
 		ris <= to_ris;
 
-		i_xn_combinatorics : xn_combinatorics
+		i_xn_combinatorial : xn_combinatorial
 			generic map(Hbits => Hbits+2, N_iterations => N_iterations)
 			port map(
 				x_p => x_p,
@@ -96,7 +96,7 @@ begin
 				x_n => x_n
 			);
 
-		i_yn_combinatorics : yn_combinatorics
+		i_yn_combinatorial : yn_combinatorial
 			generic map(Hbits => Hbits+2, N_iterations => N_iterations)
 			port map(
 				x_p => x_p,
@@ -105,7 +105,7 @@ begin
 				y_n => y_n
 			);
 
-		i_zn_combinatorics : zn_combinatorics
+		i_zn_combinatorial : zn_combinatorial
 			generic map(Kbits => Kbits, N_iterations => N_iterations)
 			port map(
 				z_p => z_p,
@@ -143,7 +143,7 @@ begin
 						state <= compute_state;
 
 					when compute_state =>
-						-- Registries are updated with the next values coming from the combinatorics networks	
+						-- Registries are updated with the next values coming from the combinatorial networks	
 							x_p <= x_n;
 							y_p <= y_n;
 							z_p <= z_n;
