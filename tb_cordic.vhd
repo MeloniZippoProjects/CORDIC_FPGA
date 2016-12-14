@@ -20,16 +20,20 @@ architecture beh_tb_cordic of tb_cordic is
 	
 	signal clk : std_ulogic := '0';
 	signal reset : std_ulogic;
+	
+	constant Hbits : positive := 32;
+	constant Kbits : positive := 32;
+	constant N_iterations : positive := 32;
 
-	signal den		: std_ulogic_vector(11 downto 0);
-	signal num		: std_ulogic_vector(11 downto 0);
-	signal ris 		: std_ulogic_vector(11 downto 0);
+	signal den		: std_ulogic_vector(Hbits-1 downto 0);
+	signal num		: std_ulogic_vector(Hbits-1 downto 0);
+	signal ris 		: std_ulogic_vector(Kbits-1 downto 0);
 begin
 
 	clk <= not clk after 50 ns;
 	
 	i_cordic : cordic
-		generic map(Hbits => 12, Kbits => 12, N_iterations => 12)
+		generic map(Hbits => Hbits, Kbits => Kbits, N_iterations => N_iterations)
 		port map(
 			den => den,
 			num => num,
@@ -43,10 +47,8 @@ begin
 		reset <= '1';
 		wait until rising_edge(clk);
 		reset <= '0';
-		num <= x"001";
-		den <= x"001";
-		wait for 320000 ns;
-		den <= x"002";
+		num <= x"1000_0000";
+		den <= x"1000_0000";
 		wait;
 	end process;
 end beh_tb_cordic;

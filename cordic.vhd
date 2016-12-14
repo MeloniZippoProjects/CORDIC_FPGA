@@ -1,5 +1,6 @@
 library IEEE;
 use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
 
 library cordic;
 use cordic.util.all;
@@ -111,20 +112,22 @@ begin
 			when read_state =>
 				x_p <= den;
 				y_p <= num;
-				to_ris <= z_p;
+				z_p <= (others => '0');
 				iteration <= (others => '0');
 				n_state <= compute_state;
 			when compute_state =>
-				if( iteration = "111") then -- computation complete
+				if( unsigned(iteration) = N_iterations-1) then -- computation complete
 					n_state <= read_state; 
 					x_p <= x_n;
 					y_p <= y_n;
 					z_p <= z_n;
+					to_ris <= z_n;
 				else
 					n_state <= p_state;
 					x_p <= x_n;
 					y_p <= y_n;
 					z_p <= z_n;
+					iteration <= std_ulogic_vector(unsigned(iteration) + 1);
 				end if;
 		end case;
 	end process;
