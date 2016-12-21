@@ -1,4 +1,14 @@
-C:/Users/enric/Documents/Progetti/CORDIC_FPGA/register.vhd {1 {vcom -work cordic -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/register.vhd
+C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/yn_combinatorial.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/yn_combinatorial.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package util
+-- Compiling entity yn_combinatorial
+-- Compiling architecture yn_combinatorial_struct of yn_combinatorial
+
+} {} {}} C:/Users/enric/Documents/Progetti/CORDIC_FPGA/register.vhd {1 {vcom -work cordic -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/register.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -21,6 +31,27 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling package body util
 -- Loading package util
 
+} {} {}} C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/cordic_atan.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/cordic_atan.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package util
+-- Compiling entity cordic_atan
+-- Compiling architecture cordic_beh of cordic_atan
+
+} {} {}} C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/zn_combinatorial.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/zn_combinatorial.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Loading package util
+-- Compiling entity zn_combinatorial
+-- Compiling architecture zn_combinatorial_struct of zn_combinatorial
+
 } {} {}} C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/Atan_LUT.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/Atan_LUT.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
@@ -31,6 +62,16 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package util
 -- Compiling entity Atan_LUT
 -- Compiling architecture Atan_LUT_struct of Atan_LUT
+
+} {} {}} C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/xn_combinatorial.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/xn_combinatorial.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package util
+-- Compiling entity xn_combinatorial
+-- Compiling architecture xn_combinatorial_struct of xn_combinatorial
 
 } {} {}} C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/tb_cordic.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/tb_cordic.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
