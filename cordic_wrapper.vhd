@@ -48,12 +48,24 @@ architecture cordic_wrapper_struct of cordic_wrapper is
 		);
 	end component;
 
+	component atan_lut_generic is
+		generic(Kbits : positive := 12; N_iterations : positive := 8);
+		port(
+			iteration : in std_ulogic_vector(f_log2(N_iterations)-1 downto 0);
+			atan : out std_ulogic_vector(Kbits-1 downto 0)
+		);
+	end component;
+
 
 	signal atan_lut_idx : std_ulogic_vector(f_log2(15)-1 downto 0);
 	signal atan_lut_data : std_ulogic_vector(31 downto 0);
 
+	signal real_atan : real;	
 
 begin
+
+	real_atan <= real(to_integer(signed(atan_lut_data))) * real(2)**(-(32 - 2));
+
 	i_cordic : cordic_atan
 		generic map(Hbits => 32, Kbits => 32, N_iterations => 15)
 		port map(
@@ -73,5 +85,12 @@ begin
 			iteration => atan_lut_idx,
 			atan => atan_lut_data
 		);
+
+	--i_lut : atan_lut_generic
+	--	generic map(Kbits => 32, N_iterations => 15)
+	--	port map(
+	--		iteration => atan_lut_idx,
+	--		atan => atan_lut_data
+	--	);
 
 end cordic_wrapper_struct;

@@ -20,11 +20,9 @@ architecture beh_tb_cordic of tb_cordic is
 	constant Kbits : positive := 32;
 	constant N_iterations : positive := 32;
 
-	component cordic_wrapper is
-		port(
-			den		: in std_ulogic_vector(Hbits-1 downto 0);
-			num		: in std_ulogic_vector(Hbits-1 downto 0);
-			ris 	: out std_ulogic_vector(Kbits-1 downto 0);
+	component cordic_wrapper is port( den: in std_ulogic_vector(Hbits-1 downto
+	0); num: in std_ulogic_vector(Hbits-1 downto 0); ris : out
+	std_ulogic_vector(Kbits-1 downto 0);  
 
 			clk 	: in std_ulogic;
 			reset 	: in std_ulogic
@@ -49,7 +47,7 @@ begin
 
 	clk <= not clk after 50 ns;
 	
-	real_ris <= real(to_integer(signed(ris))) * real(2)**(-(Kbits - 2));
+	real_ris <= real(to_integer(signed(ris))) * real(2)**(-(32 - 2));
 
 	i_wrapper : cordic_wrapper
 		port map(
