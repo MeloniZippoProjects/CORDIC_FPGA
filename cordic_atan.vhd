@@ -24,6 +24,9 @@ entity cordic_atan is
 		num		: in std_ulogic_vector(Hbits-1 downto 0);
 		ris 	: out std_ulogic_vector(Kbits-1 downto 0);
 
+		atan_lut_idx	: out std_ulogic_vector(f_log2(N_iterations)-1 downto 0);
+		atan_lut_data	: in std_ulogic_vector(Kbits-1 downto 0);
+
 		clk 	: in std_ulogic;
 		reset 	: in std_ulogic
 	);
@@ -57,7 +60,7 @@ architecture cordic_beh of cordic_atan is
 			generic(Kbits : positive := 12; N_iterations : positive := 8);
 			port(
 				z_p : in std_ulogic_vector(Kbits-1 downto 0);
-				iteration : in std_ulogic_vector(f_log2(N_iterations)-1 downto 0);
+				atan_lut_data	: in std_ulogic_vector(Kbits-1 downto 0);
 				sign_y_p : in std_ulogic;
 
 				z_n : out std_ulogic_vector(Kbits-1 downto 0)
@@ -86,6 +89,7 @@ begin
 
 	-- Mappings
 		ris <= to_ris;
+		atan_lut_idx <= iteration;
 
 		i_xn_combinatorial : xn_combinatorial
 			generic map(Hbits => Hbits+2, N_iterations => N_iterations)
@@ -109,7 +113,7 @@ begin
 			generic map(Kbits => Kbits, N_iterations => N_iterations)
 			port map(
 				z_p => z_p,
-				iteration => iteration,
+				atan_lut_data => atan_lut_data,
 				sign_y_p => y_p(Hbits-1),
 				z_n => z_n
 			);

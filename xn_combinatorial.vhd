@@ -22,7 +22,7 @@ entity xn_combinatorial is
 	);
 end xn_combinatorial;
 
-architecture xn_combinatorial_struct of xn_combinatorial is
+architecture xn_combinatorial_DataFlow of xn_combinatorial is
 
 	signal y_preshift : signed(Hbits-1 downto 0);
 	signal y_postshift : signed(Hbits-1 downto 0);
@@ -34,4 +34,4 @@ begin
 	y_postshift <= shift_right(signed(y_preshift), to_integer(unsigned(iteration)));
 	x_n <= std_ulogic_vector(signed(x_p) + y_postshift);
 
-end xn_combinatorial_struct;
+end xn_combinatorial_DataFlow;

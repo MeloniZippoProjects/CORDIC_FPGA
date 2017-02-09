@@ -8,15 +8,15 @@ use cordic.util.all;
 
 -- LUT which stores the value of atan(2^(-i)) at address i for i = 0 ... N_iterations
 
-entity Atan_LUT is
+entity atan_lut_generic is
 	generic(Kbits : positive := 12; N_iterations : positive := 8);
 	port(
 		iteration : in std_ulogic_vector(f_log2(N_iterations)-1 downto 0);
 		atan : out std_ulogic_vector(Kbits-1 downto 0)
 	);
-end Atan_LUT;
+end atan_lut_generic;
 
-architecture Atan_LUT_struct of Atan_LUT is
+architecture atan_lut_generic_struct of atan_lut_generic is
 	
 	type atantab is array(0 to N_iterations-1) of std_ulogic_vector (Kbits-1 downto 0);
 	signal atanrom: atantab;
@@ -34,4 +34,4 @@ begin
 	end generate;
 
 	atan <= atanrom(to_integer(unsigned(iteration)));
-end Atan_LUT_struct;
+end atan_lut_generic_struct;
