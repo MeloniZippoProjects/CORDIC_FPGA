@@ -17,9 +17,7 @@ for idx = 1 : tests
    
    %disp([int2hex(x, input_resolution), ' % ', int2hex(y, input_resolution), ' = ', string(atan(y/x)).char]);
 
-   
-   vhd_str = ['num <= "' int2hex(y, input_resolution) '"; den <= "' int2hex(x, input_resolution) '";'];
-
+   vhd_str = ['num <= x"' int2hex(y, input_resolution) '"; den <= x"' int2hex(x, input_resolution) '";'];
    
    fprintf(vhd, 'wait on ris;\n\t%s\n ', vhd_str);
    
