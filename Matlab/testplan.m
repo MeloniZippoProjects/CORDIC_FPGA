@@ -18,7 +18,7 @@ for idx = 1 : tests
    %disp([int2hex(x, input_resolution), ' % ', int2hex(y, input_resolution), ' = ', string(atan(y/x)).char]);
 
    
-   vhd_str = ['num <= "' int2hex(x, input_resolution) '"; den <= "' int2hex(y, input_resolution) '";'];
+   vhd_str = ['num <= "' int2hex(y, input_resolution) '"; den <= "' int2hex(x, input_resolution) '";'];
 
    
    fprintf(vhd, 'wait on ris;\n\t%s\n ', vhd_str);
@@ -28,7 +28,7 @@ for idx = 1 : tests
    [~, ~, z] = cordic_atan_simulation(x, y, iteration_number);
    
    
-   expected_val_str = ['num = ' int2hex(x, input_resolution) '; den = ' int2hex(y, input_resolution) '; z_hex = ' int2hex(z(iteration_number) * 2^(output_resolution - 2), output_resolution) '; z_dec = ' string(z(iteration_number)).char]; 
+   expected_val_str = ['num = ' int2hex(y, input_resolution) '; den = ' int2hex(x, input_resolution) '; z_hex = ' int2hex(z(iteration_number) * 2^(output_resolution - 2), output_resolution) '; z_dec = ' string(z(iteration_number)).char]; 
 
    fprintf(expected, '%s\n\n', expected_val_str);
    disp(expected_val_str);
