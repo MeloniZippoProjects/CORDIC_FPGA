@@ -1,0 +1,7 @@
+function [ hex ] = int2hex( x,  )
+%INT2HEX Summary of this function goes here
+%   Detailed explanation goes here
+
+
+end
+
