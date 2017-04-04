@@ -34,3 +34,6 @@ for idx = 1 : tests
    disp(expected_val_str);
 
 end
+
+fclose(vhd);
+fclose(expected);
