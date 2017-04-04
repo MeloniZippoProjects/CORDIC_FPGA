@@ -24,8 +24,6 @@ end cordic_wrapper;
 
 architecture cordic_wrapper_struct of cordic_wrapper is
 
-	
-	
 	component cordic_atan is
 		generic(Hbits : positive := 12; Kbits :positive := 12; N_iterations : positive := 8);
 		port (
