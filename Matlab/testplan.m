@@ -28,7 +28,7 @@ for idx = 1 : tests
    [~, ~, z] = cordic_atan_simulation(x, y, iteration_number);
    
    
-   expected_val_str = ['num = ' int2hex(x, input_resolution) '; den = ' int2hex(y, input_resolution) '; z_bin = ' fxp2hex(z(iteration_number), output_resolution) '; z_dec = ' string(z(iteration_number)).char]; 
+   expected_val_str = ['num = ' int2hex(x, input_resolution) '; den = ' int2hex(y, input_resolution) '; z_hex = ' int2hex(z(iteration_number) * 2^(output_resolution - 2), output_resolution) '; z_dec = ' string(z(iteration_number)).char]; 
 
    fprintf(expected, '%s\n\n', expected_val_str);
    disp(expected_val_str);
