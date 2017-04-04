@@ -16,9 +16,9 @@ entity tb_cordic is
 end tb_cordic;
 
 architecture beh_tb_cordic of tb_cordic is
-	constant Hbits : positive := 32;
-	constant Kbits : positive := 32;
-	constant N_iterations : positive := 32;
+	constant Hbits : positive := 12;
+	constant Kbits : positive := 12;
+	constant N_iterations : positive := 8;
 
 	component cordic_wrapper is port( den: in std_ulogic_vector(Hbits-1 downto
 	0); num: in std_ulogic_vector(Hbits-1 downto 0); ris : out
@@ -62,16 +62,16 @@ begin
 	drive_p : process
 	begin
 			reset <= '1';
-			num <= x"1000_0000";
-			den <= x"1000_0000";
+			num <= x"100";
+			den <= x"100";
 			wait until rising_edge(clk);
 			reset <= '0';
 		wait on ris;
-			num <= x"2000_0000";
-			den <= x"4000_0000";	
+			num <= x"200";
+			den <= x"400";	
 		wait on ris;
-			num <= x"6000_0000";
-			den <= x"2000_0000";
+			num <= x"600";
+			den <= x"200";
 		wait;
 	end process;
 end beh_tb_cordic;

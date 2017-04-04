@@ -60,11 +60,11 @@ architecture cordic_wrapper_struct of cordic_wrapper is
 	signal atan_lut_idx : std_ulogic_vector(f_log2(15)-1 downto 0);
 	signal atan_lut_data : std_ulogic_vector(31 downto 0);
 
-	signal real_atan : real;	
+	--signal real_atan : real;	
 
 begin
 
-	real_atan <= real(to_integer(signed(atan_lut_data))) * real(2)**(-(32 - 2));
+	--real_atan <= real(to_integer(signed(atan_lut_data))) * real(2)**(-(32 - 2));
 
 	i_cordic : cordic_atan
 		generic map(Hbits => 32, Kbits => 32, N_iterations => 15)

@@ -54,7 +54,7 @@ R13
 R14
 R15
 Eatan_lut_15x32
-Z16 w1486679763
+Z16 w1486683363
 R1
 R3
 R4
@@ -68,9 +68,9 @@ VnW;oKbgSX627LGn1@<^A13
 !s100 dUW]4@6MD:ba5nY^_77i01
 R9
 32
-Z19 !s110 1486679767
+Z19 !s110 1491322010
 !i10b 1
-Z20 !s108 1486679767.000000
+Z20 !s108 1491322010.000000
 Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/atan_lut_15x32.vhd|
 Z22 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/atan_lut_15x32.vhd|
 !i113 1
@@ -84,8 +84,8 @@ R5
 Z23 DEx4 work 14 atan_lut_15x32 0 22 nW;oKbgSX627LGn1@<^A13
 l27
 L16
-VKHJ:QTD9k?TiZ99j^l>CO3
-!s100 Nc8JUWTbLWETgQ81]A[:>3
+Z24 VKHJ:QTD9k?TiZ99j^l>CO3
+Z25 !s100 Nc8JUWTbLWETgQ81]A[:>3
 R9
 32
 R19
@@ -97,24 +97,24 @@ R22
 R14
 R15
 Eatan_lut_generic
-Z24 w1486661524
+Z26 w1486665124
 R1
 R2
 R3
 R4
 R5
 R6
-Z25 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/atan_lut_generic.vhd
-Z26 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/atan_lut_generic.vhd
+Z27 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/atan_lut_generic.vhd
+Z28 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/atan_lut_generic.vhd
 l0
 L11
 Va>0A5cLa8;znf]T7lD8=N0
 !s100 <eWgNR7^4Qbm04gJFb14F3
 R9
 32
-Z27 !s110 1486679766
+R19
 !i10b 1
-Z28 !s108 1486679766.000000
+R20
 Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/atan_lut_generic.vhd|
 Z30 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/atan_lut_generic.vhd|
 !i113 1
@@ -133,9 +133,9 @@ VYiKM?4MO]64zn8cQ7b^2O2
 !s100 Q>7DAQ@]kn>aLdUfX5;h63
 R9
 32
-R27
+R19
 !i10b 1
-R28
+R20
 R29
 R30
 !i113 1
@@ -210,7 +210,7 @@ R6
 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic.vhd
 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic.vhd
 Ecordic_atan
-Z34 w1486660866
+Z34 w1486664466
 R1
 R3
 R4
@@ -224,9 +224,9 @@ V`?J8U=ROQcVm3UU3mTOaD0
 !s100 T@z?3]HHG`HYUjPA9oZU^2
 R9
 32
-Z37 !s110 1486679765
+Z37 !s110 1491322009
 !i10b 1
-Z38 !s108 1486679765.000000
+Z38 !s108 1491322009.000000
 Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic_atan.vhd|
 Z40 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic_atan.vhd|
 !i113 1
@@ -253,7 +253,7 @@ R40
 R14
 R15
 Ecordic_wrapper
-Z41 w1486679416
+Z41 w1486685936
 R1
 R3
 R4
@@ -267,9 +267,9 @@ V=ZJgY@^]4I33]`EMfO7YQ2
 !s100 =R6FiSbNgGFzd`alhc5L_1
 R9
 32
-R27
+R19
 !i10b 1
-R28
+R20
 Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic_wrapper.vhd|
 Z45 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic_wrapper.vhd|
 !i113 1
@@ -283,13 +283,13 @@ R5
 DEx4 work 14 cordic_wrapper 0 22 =ZJgY@^]4I33]`EMfO7YQ2
 l65
 L25
-VRY<J3QQ[N@<kcnThNnZgz0
-!s100 Om69oO@9?:Z_2[L_5W8472
+V[mQdRXeSJe6j2VTP]l@^`1
+!s100 m>C7GKanY:bg^9H5nicGI3
 R9
 32
-R27
+R19
 !i10b 1
-R28
+R20
 R44
 R45
 !i113 1
@@ -413,7 +413,7 @@ R65
 R53
 R15
 Etb_cordic
-Z66 w1486676035
+Z66 w1491322005
 R1
 R3
 R4
@@ -427,9 +427,9 @@ VH789SneYIG3ZiHM>3NkBO1
 !s100 ^^aQbgK@94LhPWnN_9>Hk2
 R9
 32
-R27
+R37
 !i10b 1
-R28
+R38
 Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/tb_cordic.vhd|
 Z70 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/tb_cordic.vhd|
 !i113 1
@@ -443,23 +443,23 @@ R5
 DEx4 work 9 tb_cordic 0 22 H789SneYIG3ZiHM>3NkBO1
 l46
 L18
-VgfUJXWiHh6dY;5D3f6MSd1
-!s100 QD44DALbYUoPzC]B^lTOz2
+V]NIhN<_0OIel7KL@VWbLO1
+!s100 Fl7];AE7WchKj6LUhf_]h2
 R9
 32
-R27
+R37
 !i10b 1
-R28
+R38
 R69
 R70
 !i113 1
 R14
 R15
 Putil
-R0
+Z71 w1486658675
 R6
-Z71 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/util.vhd
-Z72 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/util.vhd
+Z72 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/util.vhd
+Z73 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/util.vhd
 l0
 L4
 VGmkfOM<MEBNld4E8k=i290
@@ -467,11 +467,11 @@ VGmkfOM<MEBNld4E8k=i290
 R9
 32
 b1
-R27
+R37
 !i10b 1
-R28
-Z73 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/util.vhd|
-Z74 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/util.vhd|
+R38
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/util.vhd|
+Z75 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/util.vhd|
 !i113 1
 R14
 R15
@@ -483,35 +483,35 @@ VC7aIZHz8c2@2@Zc?M[I::1
 !s100 ``eD@@2W14liB3Y7CQ0Dk2
 R9
 32
-R27
+R37
 !i10b 1
-R28
-R73
+R38
 R74
+R75
 !i113 1
 R14
 R15
 nbody
 Exn_combinatorial
-Z75 w1486658064
+Z76 w1486661664
 R1
 R3
 R4
 R5
 R6
-Z76 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/xn_combinatorial.vhd
-Z77 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/xn_combinatorial.vhd
+Z77 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/xn_combinatorial.vhd
+Z78 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/xn_combinatorial.vhd
 l0
 L14
 V^Xc9a^nOH8mgS[TjdzFhh3
 !s100 @WGHcLG>QU2WBC<9MSbjm0
 R9
 32
-R27
+R19
 !i10b 1
-R28
-Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/xn_combinatorial.vhd|
-Z79 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/xn_combinatorial.vhd|
+R20
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/xn_combinatorial.vhd|
+Z80 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/xn_combinatorial.vhd|
 !i113 1
 R14
 R15
@@ -520,18 +520,18 @@ R1
 R3
 R4
 R5
-Z80 DEx4 work 16 xn_combinatorial 0 22 ^Xc9a^nOH8mgS[TjdzFhh3
+Z81 DEx4 work 16 xn_combinatorial 0 22 ^Xc9a^nOH8mgS[TjdzFhh3
 l30
 L25
 V1N4YQe@Bjge;eFB>3zDn:1
 !s100 AmT`V[O4Ed5<ciH7RPITo3
 R9
 32
-R27
+R19
 !i10b 1
-R28
-R78
+R20
 R79
+R80
 !i113 1
 R14
 R15
@@ -540,42 +540,42 @@ R1
 R3
 R4
 R5
-R80
+R81
 l30
 L25
 V>1gUP;_ODSWKmW_1gV<1:0
 !s100 ;T=02S3RSjJ]AhjLAMN;e3
 R9
 32
-Z81 !s110 1486655253
+Z82 !s110 1486655253
 !i10b 1
-Z82 !s108 1486655253.000000
-R78
+Z83 !s108 1486655253.000000
 R79
+R80
 !i113 1
 R14
 R15
 R0
 Eyn_combinatorial
-Z83 w1486658057
+Z84 w1486661657
 R1
 R3
 R4
 R5
 R6
-Z84 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/yn_combinatorial.vhd
-Z85 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/yn_combinatorial.vhd
+Z85 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/yn_combinatorial.vhd
+Z86 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/yn_combinatorial.vhd
 l0
 L12
 VR^d1R[[UORa;Z@dak91Fo0
 !s100 >4FYnIOI;z@M:X<Ng7Adg0
 R9
 32
-R27
+R19
 !i10b 1
-R28
-Z86 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/yn_combinatorial.vhd|
-Z87 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/yn_combinatorial.vhd|
+R20
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/yn_combinatorial.vhd|
+Z88 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/yn_combinatorial.vhd|
 !i113 1
 R14
 R15
@@ -584,18 +584,18 @@ R1
 R3
 R4
 R5
-Z88 DEx4 work 16 yn_combinatorial 0 22 R^d1R[[UORa;Z@dak91Fo0
+Z89 DEx4 work 16 yn_combinatorial 0 22 R^d1R[[UORa;Z@dak91Fo0
 l28
 L23
 VmRc0DLUG9CbYF^:`F<d0G3
 !s100 2Rg^<5]aKi>o3^J7L_6IN1
 R9
 32
-R27
+R19
 !i10b 1
-R28
-R86
+R20
 R87
+R88
 !i113 1
 R14
 R15
@@ -604,31 +604,31 @@ R1
 R3
 R4
 R5
-R88
+R89
 l28
 L23
 VnmMn1U=63@0<<L39ZRaPX3
 !s100 5X5eTKOi_aD204`zUS=eU2
 R9
 32
-R81
-!i10b 1
 R82
-R86
+!i10b 1
+R83
 R87
+R88
 !i113 1
 R14
 R15
 R0
 Ezn_combinatorial
-Z89 w1486660763
+Z90 w1486664363
 R1
 R3
 R4
 R5
 R6
-Z90 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/zn_combinatorial.vhd
-Z91 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/zn_combinatorial.vhd
+Z91 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/zn_combinatorial.vhd
+Z92 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/zn_combinatorial.vhd
 l0
 L15
 V:;]k2B0h`]A2=kKn3hXNV3
@@ -638,8 +638,8 @@ R9
 R37
 !i10b 1
 R38
-Z92 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/zn_combinatorial.vhd|
-Z93 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/zn_combinatorial.vhd|
+Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/zn_combinatorial.vhd|
+Z94 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/zn_combinatorial.vhd|
 !i113 1
 R14
 R15
@@ -658,8 +658,8 @@ R9
 R37
 !i10b 1
 R38
-R92
 R93
+R94
 !i113 1
 R14
 R15
@@ -678,8 +678,8 @@ R9
 R10
 !i10b 1
 R11
-R92
 R93
+R94
 !i113 1
 R14
 R15

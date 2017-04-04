@@ -1,14 +1,4 @@
-C:/Users/enric/Documents/Progetti/CORDIC_FPGA/tb_cordic.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/tb_cordic.vhd
-Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Loading package NUMERIC_STD
--- Loading package util
--- Compiling entity tb_cordic
--- Compiling architecture beh_tb_cordic of tb_cordic
-
-} {} {}} C:/Users/enric/Documents/Progetti/CORDIC_FPGA/xn_combinatorial.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/xn_combinatorial.vhd
+C:/Users/enric/Documents/Progetti/CORDIC_FPGA/xn_combinatorial.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/xn_combinatorial.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -33,6 +23,16 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Loading package std_logic_1164
 -- Compiling entity reg
 -- Compiling architecture DataFlow_reg of reg
+
+} {} {}} C:/Users/enric/Documents/Progetti/CORDIC_FPGA/atan_lut_15x32.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/atan_lut_15x32.vhd
+Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package util
+-- Compiling entity atan_lut_15x32
+-- Compiling architecture rtl of atan_lut_15x32
 
 } {} {}} C:/Users/enric/Documents/Progetti/CORDIC_FPGA/yn_combinatorial.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/yn_combinatorial.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
@@ -61,8 +61,17 @@ Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 
 -- Compiling entity cordic_atan
 -- Compiling architecture cordic_beh of cordic_atan
 
-} {} {}} C:/Users/enric/Documents/Progetti/CORDIC_FPGA/zn_combinatorial.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/zn_combinatorial.vhd
+} {} {}} C:/Users/enric/Documents/Progetti/CORDIC_FPGA/zn_combinatorial.vhd {2 {vcom -work work -2002 -explicit -stats=none C:/Users/enric/Documents/Progetti/CORDIC_FPGA/zn_combinatorial.vhd
 Model Technology ModelSim PE Student Edition vcom 10.4a Compiler 2015.03 Apr  7 2015
+** Warning: (vcom-6) -- Waiting for lock by "enric@DESKTOP-EOSLCP0, pid = 12924
+". Lockfile is "C:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic/_lock".
+
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package util
+-- Compiling entity tb_cordic
+-- Compiling architecture beh_tb_cordic of tb_cordic
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
