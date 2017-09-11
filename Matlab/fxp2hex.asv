@@ -1,0 +1,14 @@
+function [ hex ] = fxp2hex( z, resolution )
+% k is assumed to be 2
+    k = 2;
+
+    if(z < 0)
+       m_z = -z;
+       nat_z = m_z * 2^
+    else
+    
+    end
+
+
+end
+

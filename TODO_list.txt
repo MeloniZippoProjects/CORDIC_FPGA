@@ -1,0 +1,13 @@
+Shifter_base : DONE
+shifter_generic : DONE
+xn e yn combinatorial : DONE
+lut_atan : TO DO AS GENERICS
+zn combinatorial : first do lut_atan
+lut_iteration : not needed
+
+Osservazioni raff:
+	- Evitiamo reti combinatorie per l'aritmetica se ci sono già le librerie per farlo (e si possono usare)
+	- Capire come diamine rendere generic le LUT
+	- Controllare la programmazione di reti sincrone: usare due registri per stato presente e attuale non ne cambia le tempistiche di aggiornamento? I signal p e n sono due registri o ingresso e uscita di uno solo?
+
+	DEBUGGARE :D

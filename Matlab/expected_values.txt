@@ -1,0 +1,40 @@
+num = F05; den = E1B; z_bin = EE9; z_dec = -1.7277
+
+num = 43F; den = 4B8; z_bin = 354; z_dec = 0.83291
+
+num = AFE; den = FD6; z_bin = EE9; z_dec = -1.7277
+
+num = F21; den = 257; z_bin = 6E9; z_dec = 1.7277
+
+num = 359; den = 412; z_bin = 394; z_dec = 0.89527
+
+num = C6B; den = 2DF; z_bin = 6E9; z_dec = 1.7277
+
+num = 27A; den = A9A; z_bin = C93; z_dec = -1.144
+
+num = 9E8; den = FF9; z_bin = EE9; z_dec = -1.7277
+
+num = 75A; den = D72; z_bin = 955; z_dec = -0.33309
+
+num = 15D; den = B95; z_bin = D0A; z_dec = -1.2604
+
+num = 404; den = C15; z_bin = B13; z_dec = -0.76912
+
+num = 018; den = 32F; z_bin = 629; z_dec = 1.5403
+
+num = 640; den = 758; z_bin = 374; z_dec = 0.86416
+
+num = 0C1; den = A38; z_bin = DCA; z_dec = -1.4477
+
+num = A64; den = C1F; z_bin = EE9; z_dec = -1.7277
+
+num = 572; den = C12; z_bin = A73; z_dec = -0.61305
+
+num = 506; den = BE5; z_bin = AB3; z_dec = -0.67553
+
+num = 6DD; den = D99; z_bin = 955; z_dec = -0.33309
+
+num = B25; den = C04; z_bin = EE9; z_dec = -1.7277
+
+num = 1DB; den = F92; z_bin = 8DD; z_dec = -0.21668
+

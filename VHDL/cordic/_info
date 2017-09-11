@@ -1,0 +1,686 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dc:/program files (x86)/ModelSim/examples
+Eatan_lut
+Z0 w1486655075
+Z1 DPx6 cordic 4 util 0 22 GmkfOM<MEBNld4E8k=i290
+Z2 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+Z3 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z6 dC:/Users/enric/Documents/Progetti/CORDIC_FPGA
+Z7 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/Atan_LUT.vhd
+Z8 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/Atan_LUT.vhd
+l0
+L11
+VJ4;BiUlTOYg=DS;a]77873
+!s100 V<2`Ie^fLc280PB;ZFAai2
+Z9 OP;C;10.4a;61
+32
+Z10 !s110 1486658448
+!i10b 1
+Z11 !s108 1486658448.000000
+Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/Atan_LUT.vhd|
+Z13 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/Atan_LUT.vhd|
+!i113 1
+Z14 o-work work -2002 -explicit -O0
+Z15 tExplicit 1
+Aatan_lut_struct
+R1
+R2
+R3
+R4
+R5
+DEx4 work 8 atan_lut 0 22 J4;BiUlTOYg=DS;a]77873
+l24
+L19
+V`:U@kMKgWE0<TJCnFC00l3
+!s100 kVg^6;UAfeZL<j7:=iYc_3
+R9
+32
+R10
+!i10b 1
+R11
+R12
+R13
+!i113 1
+R14
+R15
+Eatan_lut_15x32
+Z16 w1486683363
+R1
+R3
+R4
+R5
+R6
+Z17 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/atan_lut_15x32.vhd
+Z18 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/atan_lut_15x32.vhd
+l0
+L9
+VnW;oKbgSX627LGn1@<^A13
+!s100 dUW]4@6MD:ba5nY^_77i01
+R9
+32
+Z19 !s110 1491322010
+!i10b 1
+Z20 !s108 1491322010.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/atan_lut_15x32.vhd|
+Z22 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/atan_lut_15x32.vhd|
+!i113 1
+R14
+R15
+Artl
+R1
+R3
+R4
+R5
+Z23 DEx4 work 14 atan_lut_15x32 0 22 nW;oKbgSX627LGn1@<^A13
+l27
+L16
+Z24 VKHJ:QTD9k?TiZ99j^l>CO3
+Z25 !s100 Nc8JUWTbLWETgQ81]A[:>3
+R9
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R14
+R15
+Eatan_lut_generic
+Z26 w1486665124
+R1
+R2
+R3
+R4
+R5
+R6
+Z27 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/atan_lut_generic.vhd
+Z28 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/atan_lut_generic.vhd
+l0
+L11
+Va>0A5cLa8;znf]T7lD8=N0
+!s100 <eWgNR7^4Qbm04gJFb14F3
+R9
+32
+R19
+!i10b 1
+R20
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/atan_lut_generic.vhd|
+Z30 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/atan_lut_generic.vhd|
+!i113 1
+R14
+R15
+Aatan_lut_generic_struct
+R1
+R2
+R3
+R4
+R5
+DEx4 work 16 atan_lut_generic 0 22 a>0A5cLa8;znf]T7lD8=N0
+l24
+L19
+VYiKM?4MO]64zn8cQ7b^2O2
+!s100 Q>7DAQ@]kn>aLdUfX5;h63
+R9
+32
+R19
+!i10b 1
+R20
+R29
+R30
+!i113 1
+R14
+R15
+Ebeh_tb_cordic
+w1481647228
+R3
+R4
+R5
+Z31 dC:/Users/Raff/Documents/GitHub/CORDIC_FPGA
+8C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/tb_cordic.vhd
+FC:/Users/Raff/Documents/GitHub/CORDIC_FPGA/tb_cordic.vhd
+l0
+L5
+VUZVSWCHB<_^]I:YRKT8EE0
+!s100 4:B@SOceX6V`hNhi<R>ZM3
+R9
+32
+!s110 1481647273
+!i10b 1
+!s108 1481647273.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/tb_cordic.vhd|
+!s107 C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/tb_cordic.vhd|
+!i113 1
+R14
+R15
+Ecordic
+Z32 w1481725852
+Z33 DPx6 cordic 4 util 0 22 @4Y?]k_QjfT]dnLLJjHfi0
+R3
+R4
+R5
+R31
+8C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/cordic.vhd
+FC:/Users/Raff/Documents/GitHub/CORDIC_FPGA/cordic.vhd
+l0
+L8
+VLEk<[a0mi94mV=?`>Bdk40
+!s100 ehXn<>XzL4>kIM?[[TRAe1
+R9
+32
+!s110 1481725904
+!i10b 1
+!s108 1481725904.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/cordic.vhd|
+!s107 C:/Users/Raff/Documents/GitHub/CORDIC_FPGA/cordic.vhd|
+!i113 1
+R14
+R15
+Acordic_beh
+R33
+R3
+R4
+R5
+DEx4 work 6 cordic 0 22 LEk<[a0mi94mV=?`>Bdk40
+l68
+L20
+Vh`n0iKW94kjjB_]6cK@g_3
+!s100 [1aN2S>=<J1hWVUN;WeEF2
+R9
+32
+!s110 1481722976
+!i10b 1
+!s108 1481722976.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic.vhd|
+!s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic.vhd|
+!i113 1
+R14
+R15
+R6
+FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic.vhd
+8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic.vhd
+Ecordic_atan
+Z34 w1486664466
+R1
+R3
+R4
+R5
+R6
+Z35 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic_atan.vhd
+Z36 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic_atan.vhd
+l0
+L20
+V`?J8U=ROQcVm3UU3mTOaD0
+!s100 T@z?3]HHG`HYUjPA9oZU^2
+R9
+32
+Z37 !s110 1491322009
+!i10b 1
+Z38 !s108 1491322009.000000
+Z39 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic_atan.vhd|
+Z40 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic_atan.vhd|
+!i113 1
+R14
+R15
+Acordic_beh
+R1
+R3
+R4
+R5
+DEx4 work 11 cordic_atan 0 22 `?J8U=ROQcVm3UU3mTOaD0
+l88
+L35
+Vb4G0K>fCl?47G^KKoW=[Y1
+!s100 =NG>1bl>8A=92h5X@n?140
+R9
+32
+R37
+!i10b 1
+R38
+R39
+R40
+!i113 1
+R14
+R15
+Ecordic_wrapper
+Z41 w1486685936
+R1
+R3
+R4
+R5
+R6
+Z42 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic_wrapper.vhd
+Z43 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic_wrapper.vhd
+l0
+L14
+V=ZJgY@^]4I33]`EMfO7YQ2
+!s100 =R6FiSbNgGFzd`alhc5L_1
+R9
+32
+R19
+!i10b 1
+R20
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic_wrapper.vhd|
+Z45 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/cordic_wrapper.vhd|
+!i113 1
+R14
+R15
+Acordic_wrapper_struct
+R1
+R3
+R4
+R5
+DEx4 work 14 cordic_wrapper 0 22 =ZJgY@^]4I33]`EMfO7YQ2
+l65
+L25
+V[mQdRXeSJe6j2VTP]l@^`1
+!s100 m>C7GKanY:bg^9H5nicGI3
+R9
+32
+R19
+!i10b 1
+R20
+R44
+R45
+!i113 1
+R14
+R15
+Efa
+Z46 w1476785200
+R4
+R5
+R6
+Z47 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/fa.vhd
+Z48 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/fa.vhd
+l0
+L4
+VK2EO5XmoZ6h<Bmb8]18TE1
+!s100 ZmS:kNEEC]DoN`bzlHBC?3
+R9
+32
+Z49 !s110 1481385198
+!i10b 1
+Z50 !s108 1481385198.000000
+Z51 !s90 -reportprogress|300|-work|cordic|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/fa.vhd|
+Z52 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/fa.vhd|
+!i113 1
+Z53 o-work cordic -2002 -explicit -O0
+R15
+Afa_architecture
+R4
+R5
+DEx4 work 2 fa 0 22 K2EO5XmoZ6h<Bmb8]18TE1
+l15
+L14
+VXG^h;a^L0BWNF56k^YkiX3
+!s100 E2^h]54UPL90;Azb[31;43
+R9
+32
+R49
+!i10b 1
+R50
+R51
+R52
+!i113 1
+R53
+R15
+Erca_p
+Z54 w1477383721
+R4
+R5
+R6
+Z55 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/rca_parametric.vhd
+Z56 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/rca_parametric.vhd
+l0
+L4
+VHCl6DXOQ1;EgI_4:=d4ZH2
+!s100 <mT^ffZ<RRXf]MfK;iS@E1
+R9
+32
+Z57 !s110 1481385199
+!i10b 1
+R50
+Z58 !s90 -reportprogress|300|-work|cordic|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/rca_parametric.vhd|
+Z59 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/rca_parametric.vhd|
+!i113 1
+R53
+R15
+Astruct
+R4
+R5
+DEx4 work 5 rca_p 0 22 HCl6DXOQ1;EgI_4:=d4ZH2
+l33
+L15
+V>`eEL80l6H6_4LTCXo>RW2
+!s100 1Yj_FeV]7X4Q2RjSag@Uf3
+R9
+32
+R57
+!i10b 1
+R50
+R58
+R59
+!i113 1
+R53
+R15
+Ereg
+Z60 w1477389269
+R4
+R5
+R6
+Z61 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/register.vhd
+Z62 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/register.vhd
+l0
+L4
+VLAz@EH93Mh80QOncIhSD61
+!s100 f`=7aRS1_nR`lGEDQY28?2
+R9
+32
+R57
+!i10b 1
+Z63 !s108 1481385199.000000
+Z64 !s90 -reportprogress|300|-work|cordic|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/register.vhd|
+Z65 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/register.vhd|
+!i113 1
+R53
+R15
+Adataflow_reg
+R4
+R5
+DEx4 work 3 reg 0 22 LAz@EH93Mh80QOncIhSD61
+l16
+L15
+VHElTR@7<9U>AzDFJPAgUH0
+!s100 VzddgA3DDGli4IbmLkf900
+R9
+32
+R57
+!i10b 1
+R63
+R64
+R65
+!i113 1
+R53
+R15
+Etb_cordic
+Z66 w1491322005
+R1
+R3
+R4
+R5
+R6
+Z67 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/tb_cordic.vhd
+Z68 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/tb_cordic.vhd
+l0
+L15
+VH789SneYIG3ZiHM>3NkBO1
+!s100 ^^aQbgK@94LhPWnN_9>Hk2
+R9
+32
+R37
+!i10b 1
+R38
+Z69 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/tb_cordic.vhd|
+Z70 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/tb_cordic.vhd|
+!i113 1
+R14
+R15
+Abeh_tb_cordic
+R1
+R3
+R4
+R5
+DEx4 work 9 tb_cordic 0 22 H789SneYIG3ZiHM>3NkBO1
+l46
+L18
+V]NIhN<_0OIel7KL@VWbLO1
+!s100 Fl7];AE7WchKj6LUhf_]h2
+R9
+32
+R37
+!i10b 1
+R38
+R69
+R70
+!i113 1
+R14
+R15
+Putil
+Z71 w1486658675
+R6
+Z72 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/util.vhd
+Z73 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/util.vhd
+l0
+L4
+VGmkfOM<MEBNld4E8k=i290
+!s100 ^:ej[b15?Bgzf3;SVIf4l1
+R9
+32
+b1
+R37
+!i10b 1
+R38
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/util.vhd|
+Z75 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/util.vhd|
+!i113 1
+R14
+R15
+Bbody
+DPx4 work 4 util 0 22 GmkfOM<MEBNld4E8k=i290
+l0
+L8
+VC7aIZHz8c2@2@Zc?M[I::1
+!s100 ``eD@@2W14liB3Y7CQ0Dk2
+R9
+32
+R37
+!i10b 1
+R38
+R74
+R75
+!i113 1
+R14
+R15
+nbody
+Exn_combinatorial
+Z76 w1486661664
+R1
+R3
+R4
+R5
+R6
+Z77 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/xn_combinatorial.vhd
+Z78 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/xn_combinatorial.vhd
+l0
+L14
+V^Xc9a^nOH8mgS[TjdzFhh3
+!s100 @WGHcLG>QU2WBC<9MSbjm0
+R9
+32
+R19
+!i10b 1
+R20
+Z79 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/xn_combinatorial.vhd|
+Z80 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/xn_combinatorial.vhd|
+!i113 1
+R14
+R15
+Axn_combinatorial_dataflow
+R1
+R3
+R4
+R5
+Z81 DEx4 work 16 xn_combinatorial 0 22 ^Xc9a^nOH8mgS[TjdzFhh3
+l30
+L25
+V1N4YQe@Bjge;eFB>3zDn:1
+!s100 AmT`V[O4Ed5<ciH7RPITo3
+R9
+32
+R19
+!i10b 1
+R20
+R79
+R80
+!i113 1
+R14
+R15
+Axn_combinatorial_struct
+R1
+R3
+R4
+R5
+R81
+l30
+L25
+V>1gUP;_ODSWKmW_1gV<1:0
+!s100 ;T=02S3RSjJ]AhjLAMN;e3
+R9
+32
+Z82 !s110 1486655253
+!i10b 1
+Z83 !s108 1486655253.000000
+R79
+R80
+!i113 1
+R14
+R15
+R0
+Eyn_combinatorial
+Z84 w1486661657
+R1
+R3
+R4
+R5
+R6
+Z85 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/yn_combinatorial.vhd
+Z86 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/yn_combinatorial.vhd
+l0
+L12
+VR^d1R[[UORa;Z@dak91Fo0
+!s100 >4FYnIOI;z@M:X<Ng7Adg0
+R9
+32
+R19
+!i10b 1
+R20
+Z87 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/yn_combinatorial.vhd|
+Z88 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/yn_combinatorial.vhd|
+!i113 1
+R14
+R15
+Ayn_combinatorial_dataflow
+R1
+R3
+R4
+R5
+Z89 DEx4 work 16 yn_combinatorial 0 22 R^d1R[[UORa;Z@dak91Fo0
+l28
+L23
+VmRc0DLUG9CbYF^:`F<d0G3
+!s100 2Rg^<5]aKi>o3^J7L_6IN1
+R9
+32
+R19
+!i10b 1
+R20
+R87
+R88
+!i113 1
+R14
+R15
+Ayn_combinatorial_struct
+R1
+R3
+R4
+R5
+R89
+l28
+L23
+VnmMn1U=63@0<<L39ZRaPX3
+!s100 5X5eTKOi_aD204`zUS=eU2
+R9
+32
+R82
+!i10b 1
+R83
+R87
+R88
+!i113 1
+R14
+R15
+R0
+Ezn_combinatorial
+Z90 w1486664363
+R1
+R3
+R4
+R5
+R6
+Z91 8C:/Users/enric/Documents/Progetti/CORDIC_FPGA/zn_combinatorial.vhd
+Z92 FC:/Users/enric/Documents/Progetti/CORDIC_FPGA/zn_combinatorial.vhd
+l0
+L15
+V:;]k2B0h`]A2=kKn3hXNV3
+!s100 J3j9RXLTQCoITz^aRdnjj3
+R9
+32
+R37
+!i10b 1
+R38
+Z93 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/enric/Documents/Progetti/CORDIC_FPGA/zn_combinatorial.vhd|
+Z94 !s107 C:/Users/enric/Documents/Progetti/CORDIC_FPGA/zn_combinatorial.vhd|
+!i113 1
+R14
+R15
+Azn_combinatorial_dataflow
+R1
+R3
+R4
+R5
+DEx4 work 16 zn_combinatorial 0 22 :;]k2B0h`]A2=kKn3hXNV3
+l30
+L26
+VY4lHkKB]@YP0;Q8Y3b7Y83
+!s100 Mn@3U=^kA45:[XTYAnfXH0
+R9
+32
+R37
+!i10b 1
+R38
+R93
+R94
+!i113 1
+R14
+R15
+Azn_combinatorial_struct
+R1
+R3
+R4
+R5
+DEx4 work 16 zn_combinatorial 0 22 lMnWhO4=?EJJB4zkc5^5a2
+l39
+L26
+Vk;7gP86ZC4Q=:>1Ldg<YW0
+!s100 63R@7L5F1dlfFiBm@m`Ue0
+R9
+32
+R10
+!i10b 1
+R11
+R93
+R94
+!i113 1
+R14
+R15
+w1486658445
